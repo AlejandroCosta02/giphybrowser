@@ -20,7 +20,7 @@ function Paginate(props) {
             <li className="={classes}">
               <a
                 className="page-link"
-                href="!#"
+               
                 onClick={() => props.pageSelected(number)}
               >
                 {number}
